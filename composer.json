@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Parsidev\\Novinways\\": "src/"
+            "Parsidev\\Novinways": "src/"
         }
     },
     "extra": {
