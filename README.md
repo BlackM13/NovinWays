@@ -8,7 +8,7 @@ installation
 For install this package, run this command
 
 ```php
-composer require BlackM13/novinways
+composer require black-m13/novinways
 ```
 Publish config files:
 ```
