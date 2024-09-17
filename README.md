@@ -8,7 +8,7 @@ installation
 For install this package, run this command
 
 ```php
-composer require parsidev/novinways
+composer require BlackM13/novinways
 ```
 Publish config files:
 ```
