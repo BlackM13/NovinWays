@@ -1,0 +1,25 @@
+{
+    "name": "parsidev/novinways",
+    "description": "Laravel package for Novinways SOAP services",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Parsidev\\Novinways\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-soap": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Parsidev\\Novinways\\NovinwaysServiceProvider"
+            ],
+            "aliases": {
+                "Novinways": "Parsidev\\Novinways\\Facades\\Novinways"
+            }
+        }
+    }
+}
