@@ -10,7 +10,7 @@ This package is developed for Iranian users and works with novinways.com service
 
 Install via Composer:
 
-composer require BlackM13/novinways:6.0.x-dev
+composer require black-m13/novinways
 
 ---
 
