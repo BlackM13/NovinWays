@@ -1,25 +1,38 @@
 {
-    "name": "parsidev/novinways",
+    "name": "BlackM13/novinways",
     "description": "Laravel package for Novinways SOAP services",
+    "keywords": [
+        "laravel",
+        "soap",
+        "novinways",
+        "iran"
+    ],
     "type": "library",
     "license": "MIT",
+
+    "require": {
+        "php": "^8.0",
+        "ext-soap": "*",
+        "illuminate/support": "^9.0|^10.0|^11.0|^12.0|^13.0"
+    },
+
     "autoload": {
         "psr-4": {
-            "Parsidev\\Novinways\\": "src/"
+            "BlackM13\\Novinways\\": "src/"
         }
     },
-    "require": {
-        "php": ">=8.0",
-        "ext-soap": "*"
-    },
+
     "extra": {
         "laravel": {
             "providers": [
-                "Parsidev\\Novinways\\NovinwaysServiceProvider"
+                "BlackM13\\Novinways\\NovinwaysServiceProvider"
             ],
             "aliases": {
-                "Novinways": "Parsidev\\Novinways\\Facades\\Novinways"
+                "Novinways": "BlackM13\\Novinways\\Facades\\Novinways"
             }
         }
-    }
+    },
+
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
