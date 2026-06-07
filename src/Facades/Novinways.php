@@ -1,6 +1,6 @@
 <?php
 
-namespace Parsidev\Novinways\Facades;
+namespace BlackM13\Novinways\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class Novinways extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Parsidev\Novinways\Novinways::class;
+        return \BlackM13\Novinways\Novinways::class;
     }
 }

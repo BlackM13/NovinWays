@@ -1,6 +1,6 @@
 <?php
 
-namespace Parsidev\Novinways;
+namespace BlackM13\Novinways;
 
 use SoapClient;
 
